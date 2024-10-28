@@ -1,0 +1,28 @@
+h1
+{
+    text-align: center ;
+    color: white;
+}
+header
+{
+    padding: 10px;
+    background-color: rgb(17, 124, 143);
+}
+nav
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+nav a{
+    color: white;
+}
+.img1
+{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+h4
+{
+    text-align: center;
+}

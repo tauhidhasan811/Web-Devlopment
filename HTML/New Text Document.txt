@@ -1,0 +1,40 @@
+create table student(name varchar(10),id varchar2(15),phone_number number(11),adress varchar2(25))
+
+drop table student
+
+
+create table tauhid(name varchar(10),age number(3),mobile_number number(13))
+
+alter table tauhid add (location varchar (20),institute varchar(20))
+
+alter table tauhid modify (age varchar(20),name varchar(21))
+
+rename tauhid to boss_tauhid
+
+rename boss_tauhid to tauhid
+
+alter table tauhid rename column age to date_of_birth
+
+alter table tauhid rename column name to full_name
+
+insert into tauhid values('tauhid','23-jan-22',01722746544,'bangladesh','aiub')
+
+insert into tauhid values('tauhid','23-jan-22',01722746544,'bangladesh','aiub')
+
+insert into tauhid values('tauhid hasan','23-jan-22',01722746544,'bangladesh','aiub')
+
+update tauhid set full_name='hasan',institute='not aiub'
+
+
+truncate table tauhid
+
+delete from tauhid
+
+delete from tauhid where full_name='tauhid hasan'
+
+describe tauhid
+
+
+select *from tauhid 
+
+drop table tauhid
